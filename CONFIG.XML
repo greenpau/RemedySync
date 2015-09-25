@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <Remedy>
+    <Server>remedysrv</Server>
+    <Port>8000</Port>
+    <User>greenpau</User>
+    <Secret>MTMyYzIwZDZhOTRl</Secret>
+    <First_Name>Paul</First_Name>
+    <Last_Name>Greenberg</Last_Name>
+    <Login_ID>greenpau</Login_ID>
+  </Remedy>
+</configuration>

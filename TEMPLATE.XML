@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This template create a low priority incident with IT Engineering Group -->
+<configuration>
+  <Function>CreateEntry</Function>
+  <Form>HPD:IncidentInterface_Create</Form>
+  <Fields>
+    <!-- Action -->
+    <Field id="1000000076" type="string">CREATE</Field>
+    <!-- Status -->   
+	<Field id="7" type="int">1</Field>
+	<!-- Summary Field, maps with CLI s|summary option  -->                          
+    <Field id="1000000000"  type="config">Summary</Field>
+	<!-- Notes Field, maps with CLI n|notes option  -->                          
+    <Field id="1000000151"  type="config">Notes</Field>
+	<!-- Reported_Source -->
+    <Field id="1000000215" type="int">1000</Field>
+    <!-- Urgency --> 
+    <Field id="1000000162" type="int">4000</Field>  
+	<!-- Impact -->       
+    <Field id="1000000163" type="int">4000</Field>
+	<!-- First_Name -->
+    <Field id="1000000018" type="config">First_Name</Field>
+	<!-- Last_Name -->                          
+    <Field id="1000000019" type="config">Last_Name</Field>
+	<!-- Login_ID -->                          
+    <Field id="301921200"  type="config">Login_ID</Field>
+	<!-- Customer: Company -->                          
+    <Field id="1000000082" type="string">MYCORP</Field>
+	<!-- Classification: Company -->                          
+    <Field id="1000000001" type="string">MYCORP</Field>
+	<!-- Classification: Incident Type -->                          
+    <Field id="1000000099" type="string">User Service Request</Field>
+	<!-- Assignment: Support Company -->                          
+    <Field id="1000000251" type="string">MYCORP</Field>
+	<!-- Assignment: Support Organization -->    
+    <Field id="1000000014" type="string">Technology</Field>
+	<!-- Assignment: Assigned Group -->    
+    <Field id="1000000217" type="string">Engineering</Field>
+  </Fields>
+</configuration>
